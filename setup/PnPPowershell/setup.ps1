@@ -5,7 +5,7 @@
 param(
     [string] $tenantName,
     [string] $sitePath = "SiteDesignsStudio",
-    [string] $credentialsName = ""
+    [PSCredential] $credentialsName = ""
 )
 
 $url = "https://$tenantName.sharepoint.com"
